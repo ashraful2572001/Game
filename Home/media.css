@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1173px) {
+    .nav-items {
+        display: none;
+
+    }
+    .nav-logo h1{
+        font-size: 1em;
+    }
+    .nav-contant-background{
+        background-color: black;
+        width: 100px;
+        height: 40px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
