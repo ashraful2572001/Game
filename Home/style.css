@@ -38,21 +38,20 @@ body {
 
 
 .container {
-    width: 80vw;
+    width: 90vw;
     margin: auto;
     height: 100%;
 
 }
 
 .nav-bar-wrapper {
-    width: 80vw;
+    width: 90vw;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .nav-logo {
-    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +80,6 @@ body {
     font-size: 15px;
 }
 .nav-contant {
-    width: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,15 +100,19 @@ body {
     text-decoration: none;
 }
 
+.nave-menu-icon{
+    display: none;
+}
+
+
 
 #home-slider{
     margin-top: 10px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     /* overflow: hidden; */
 }
 .home-slider-about p{
-    font-size: 20px;
     color: white;
     position: absolute;
     z-index: 2;
@@ -118,12 +120,12 @@ body {
     left: 100px;
     font-size: 60px;
     font-weight: 800;
-    width: 900px;
+    width: 80vw;
 }
 #home-slider img{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-position: center;
     filter: blur(3px);
 

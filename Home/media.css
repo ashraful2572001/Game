@@ -15,4 +15,13 @@
         justify-content: center;
         align-items: center;
     }
+    .nave-menu-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nave-menu-icon a i{
+        font-size: 20px;
+        color: black;
+    }
 }
